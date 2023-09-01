@@ -1,0 +1,116 @@
+.div1 {
+  background: rgb(216, 242, 250);
+  height: 100vh;
+}
+
+.testimonials {
+  width: 50rem;
+  margin-inline: auto;
+  /* margin-top: 5rem; */
+}
+
+.testimonials__head {
+  justify-content: center;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+.testimonial {
+  /* border-radius: 5px 2rem; */
+  justify-content: center;
+  /* height: ; */
+  /* margin-top: 10rem; */
+  /* padding-top: 1rem; */
+}
+.testi {
+  position: relative;
+  text-align: left;
+  margin-top: 5rem;
+  justify-content: center;
+  margin: 3rem;
+}
+.testimonial__avatar {
+  /* width: 4rem;
+  height: 4rem; */
+  margin-top: 8.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid transparent;
+  overflow: hidden;
+  position: absolute;
+  top: -2rem;
+  left: calc(50%-2rem);
+  box-shadow: 3px 2px 10px rgb(85, 80, 80);
+  transition: all 400ms ease;
+  margin-left: 42%;
+}
+.testimonial:hover .testimonial__avatar {
+  border-radius: 50%;
+  border-color: rgb(56, 144, 166);
+}
+
+.cards {
+  box-shadow: 3px 2px 15px rgb(35, 40, 41);
+  background-color: rgb(49, 204, 207);
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 2rem 1rem;
+  /* padding: 3rem 2rem; */
+  border-radius: 0 3rem 0 3rem;
+  transition: all 400ms ease;
+}
+.cards:hover {
+  background: transparent;
+  border-color: rgb(56, 144, 166);
+  cursor: default;
+}
+.cards small {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 300;
+}
+
+.testimonai_quote {
+  font-style: italic;
+  font-size: 18px;
+  margin: 1rem 0 2rem;
+}
+.cards small.testimonial__title {
+  font-size: large;
+  margin-top: 0.3rem;
+}
+.testimonials__btn {
+  background: transparent;
+  border: 0 solid transparent;
+  cursor: pointer;
+}
+.testimonials__btn svg {
+  fill: rgb(0, 167, 209);
+  font-size: 1.8rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-top: 2rem;
+}
+
+.testimonials__btn svg:hover {
+  fill: rgb(0, 204, 255);
+}
+
+.section__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section__head span {
+  /* background: rgb(56, 144, 166); */
+  /* padding: 0.8rem; */
+  border-radius: 1rem;
+  color: darkturquoise;
+  font-size: 2.5rem;
+}
+
+.section__head h1 {
+  color: rgb(78, 69, 69);
+  font-size: 2.5rem;
+  font-style: bold;
+}

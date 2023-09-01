@@ -1,0 +1,87 @@
+#prbg{
+    font-family: "Poppins",sans-serif;
+    
+    background: rgb(216, 242, 250);
+    
+    height: 100vh;
+}
+#contactL{
+    /* margin-bottom: 2rem; */
+    /* padding-top: 100px; */
+    text-align: center;
+}
+#contact > h1{
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    color: darkturquoise;
+}
+
+.contact_container{
+    margin-left: 20%;
+    margin-top: 40px;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%; 
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;  
+}
+.contact_option{
+    background: rgb(49, 204, 207);
+    color: rgb(40, 39, 39);
+    padding: 0.5rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 400ms ease ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact_option > h4{
+    font-size:large;
+}
+.contact_option > h5{
+    font-size:medium;
+}
+.contact_option:hover{
+    background: rgb(216, 237, 255);
+    border-color: rgb(1, 1, 56);
+}
+.as{
+
+    font-size: 1.5rem;
+}
+.contact_option-icon{
+    margin-bottom:30px;
+ }
+
+.contact_option > a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    color: rgb(5, 0, 157);
+}
+/*  ======================================== */
+.contactform{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+button{
+    width: 150px;
+}
+
+input,textarea{
+    font-size:medium;
+    
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(238, 247, 255);
+    border: 2px solid darkturquoise ;
+    /* resize:none ; */
+    color: rgb(0, 0, 0);
+}
+

@@ -1,0 +1,53 @@
+footer{
+    background: rgb(116, 198, 246);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+footer a{
+    color: blue;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.social a{
+    background: rgb(18, 18, 74);
+    color: white;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    font-size: 20px;
+    display: flex;
+    border: 1px solid transparent;
+    margin-top: 40px;
+}
+.social :hover{
+    background:  rgb(116, 198, 246);
+    color: rgb(9, 9, 10);
+    border-color: black;
+}
+.copyrights{
+    /* margin-top: 4rem; */
+    color: rgb(98, 98, 186);
+    /* padding-right: 1900px; */
+    justify-content: center;
+}
