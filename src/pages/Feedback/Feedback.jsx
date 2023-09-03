@@ -29,11 +29,11 @@ export default function Feedback() {
           </li>
           <br />
           <li>
-            <a href="/about">About</a>
+            <a href="#about">About</a>
           </li>
           <br />
           <li>
-            <a href="/contact">Contact As</a>
+            <a href="#contact">Contact As</a>
           </li>
           <br />
         </ul>
