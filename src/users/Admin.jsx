@@ -21,13 +21,13 @@ export default function Admin() {
   };
 
   return (
-    <section >
+    <section style={{backgroundColor:"rgb(216, 242, 250)"}}>
       <nav className="navbar navbar-expand-lg bg-primary mb-3">
         <br />
         <br/>
         <br/>
       </nav>
-      <div className="container ">
+      <div className="container">
         <div className="py-4">
           <table className="table border shadow">
             <thead>

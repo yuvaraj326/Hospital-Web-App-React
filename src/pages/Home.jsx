@@ -29,16 +29,16 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:"rgb(216, 242, 250)"}}>
       <nav className="navbar navbar-expand-lg bg-primary mb-5">
         <br />
         <br/>
         
         
       </nav>
-      <div className="container ">
+      <div className="container">
         <div className="row">
-          <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
+          <div className="col-md-6 offset-md-3 border rounded p-4 mb-4 shadow" style={{backgroundColor:"darkturquoise"}}>
             <h2 className="text-center m-4">Add Appointment</h2>
             <form className="registrationForm" onSubmit={(e) => onSubmit(e)}>
               <div className="mb-3">

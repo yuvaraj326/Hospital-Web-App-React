@@ -45,15 +45,15 @@ export default function Navbar() {
                 Admin
               </Link>
 
-              <a href="#about" className="nav-link active ms-2 text-white-50">
+              <a href="/#about" className="nav-link active ms-2 text-white-50">
                 About
               </a>
-              <a href="#testimonialT" className="nav-link active ms-2 text-white-50">
+              <a href="/#testimonialT" className="nav-link active ms-2 text-white-50">
               Testimonial
               </a>
               <a
                 className="nav-link active ms-2 text-white-50 "
-                href="#contactL"
+                href="/#contactL"
               >
                 Contact us
               </a>

@@ -3,8 +3,6 @@ import Header from "./Header";
 import About from "../About/About";
 import Testimonials from "../Testimonials/Testimonials";
 import Contact from '../Contact us/Contact';
-// import Feedback from "../Feedback/Feedback";
-import Footer from "../Footer/Footer";
 
 export default function Profile() {
   // const styl = { width: "100%" };
@@ -16,8 +14,6 @@ export default function Profile() {
         <About/>
         <Testimonials/>
         <Contact/>
-        {/* <Feedback /> */}
-        <Footer/>
 
       </div>
       

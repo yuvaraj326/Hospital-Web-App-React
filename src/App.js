@@ -11,6 +11,7 @@ import Viewuser from "./users/Viewuser";
 import Login from "./users/Login";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact us/Contact";
+import Footer from "./pages/Footer/Footer";
 // import Feedback from "./pages/Feedback/Feedback";
 // import Nav from "./layout/Nav";
 
@@ -32,8 +33,7 @@ export default function App() {
           {/* <Route exact path="/feedback" element={<Feedback />} /> */}
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
-
-
