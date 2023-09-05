@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import doclogo from "../images/doclogo1.png";
+import doclogo from "../images/logo001.png";
 
 export default function Navbar() {
-  const styl = { width: "90px", height: "90px" };
+  const styl = { width: "100px", height: "100px"  };
   return (
     <div>
       <div

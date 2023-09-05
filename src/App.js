@@ -11,7 +11,7 @@ import Viewuser from "./users/Viewuser";
 import Login from "./users/Login";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact us/Contact";
-import Feedback from "./pages/Feedback/Feedback";
+// import Feedback from "./pages/Feedback/Feedback";
 // import Nav from "./layout/Nav";
 
 export default function App() {
@@ -29,7 +29,7 @@ export default function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/feedback" element={<Feedback />} />
+          {/* <Route exact path="/feedback" element={<Feedback />} /> */}
         </Routes>
       </Router>
     </div>

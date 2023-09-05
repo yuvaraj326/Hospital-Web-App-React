@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-export default function () {
+function Login() {
   let navigate = useNavigate();
 
   const [user, setuser] = useState({
@@ -77,3 +77,4 @@ export default function () {
     </div>
   );
 }
+export default Login

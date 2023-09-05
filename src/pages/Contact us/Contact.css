@@ -59,9 +59,10 @@
 
 .contact_option > a{
     margin-top: 0.7rem;
+    text-decoration: none;
     display: inline-block;
     font-size: 1.1rem;
-    color: rgb(5, 0, 157);
+    color: rgb(32, 84, 158);
 }
 /*  ======================================== */
 .contactform{

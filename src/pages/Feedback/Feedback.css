@@ -1,4 +1,4 @@
-footer{
+/* footer{
     background: rgb(116, 198, 246);
     padding: 3rem 0;
     text-align: center;
@@ -44,10 +44,10 @@ footer a{
     background:  rgb(116, 198, 246);
     color: rgb(9, 9, 10);
     border-color: black;
-}
-.copyrights{
+} */
+/* .copyrights{ */
     /* margin-top: 4rem; */
-    color: rgb(98, 98, 186);
+    /* color: rgb(98, 98, 186); */
     /* padding-right: 1900px; */
-    justify-content: center;
-}
+    /* justify-content: center; */
+/* } */
