@@ -32,7 +32,7 @@ export default function Contact() {
             <b>Get In Touch</b>
           </h5>
           <h1>
-            <b>Contact Me</b>
+            <b>Contact Us</b>
           </h1>
         </section>
 

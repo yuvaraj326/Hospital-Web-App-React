@@ -10,10 +10,7 @@ export default function About() {
   return (
     <header id="about" >
       
-        <nav className="navbar navbar-expand-lg navbar-transparent ">
-          <br />
-          <br></br>
-        </nav>
+       
       <div className="container " >
         <h4>
           {" "}

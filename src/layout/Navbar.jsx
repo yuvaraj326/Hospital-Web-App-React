@@ -64,7 +64,7 @@ export default function Navbar() {
               >
                 Feedback
               </a>*/}
-              {/* <Link className="nav-link active ms-2" aria-current="page"></Link>  */}
+              <Link className="nav-link active ms-2" aria-current="page"></Link> 
             </div>
           </div>
         </div>

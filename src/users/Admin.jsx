@@ -23,7 +23,7 @@ export default function Admin() {
   return (
     <section style={{backgroundColor:"rgb(216, 242, 250)"}}>
       <nav className="navbar navbar-expand-lg bg-primary mb-3">
-        <br />
+        
         <br/>
         <br/>
       </nav>

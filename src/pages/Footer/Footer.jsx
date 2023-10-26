@@ -23,13 +23,13 @@ function Footer() {
         {/* <!--Social media section--> */}
         <div className="social-media">
             <h4><b>Social</b></h4>
-            <p><a href="https://www.linkedin.com/in/yuvaraj-vx31">Linkedin</a></p>
-            <p><a href="https://www.twitter.com/">Twitter</a></p>
+            <p><a href="https://www.linkedin.com/in/yuvaraj-vx31" target='_blank' rel="noreferrer">Linkedin</a></p>
+            <p><a href="https://www.twitter.com/" target='_blank' rel="noreferrer">Twitter</a></p>
             <p><a href="https://github.com/yuvaraj326/Hospital-Web-App.git" target='_blank' rel="noreferrer">Github</a></p>
-            <p><a href=" https://www.facebook.com/profile.php?id=100008717234902"
+            <p><a href=" https://www.facebook.com/"
             target="_blank"
             rel="noreferrer">Instagram</a></p>
-            <p><a href="https://www.youtube.com/">Youtube</a></p>
+            <p><a href="https://www.youtube.com/" target='_blank' rel="noreferrer" >Youtube</a></p>
         </div>
         {/* <!--navigation links--> */}
         <div className="links">
